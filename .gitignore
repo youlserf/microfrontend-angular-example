@@ -1,0 +1,23 @@
+# Ignore node_modules for both apps
+main-app/node_modules/
+microfrontend/node_modules/
+
+# Ignore build artifacts
+dist/
+*.bak
+*.log
+*.log.*
+*.tmp
+
+# Ignore environment files
+*.env
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# Ignore configuration files
+.editorconfig
+.eslintignore
+.eslintrc
+prettier.config.js
